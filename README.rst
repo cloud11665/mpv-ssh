@@ -32,8 +32,7 @@ License
 |GNU GPLv3 Image|
 
 | mpv-ssh is Free Software: You can use, study share and improve it at
-your
-| will. Specifically you can redistribute and/or modify it under the
+your will. Specifically you can redistribute and/or modify it under the
 terms and conditions of GNU General Public License v3
 
 .. |GNU GPLv3 Image| image:: https://www.gnu.org/graphics/gplv3-with-text-136x68.png
