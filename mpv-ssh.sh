@@ -30,7 +30,7 @@ PATH_=$2
 shift
 shift
 
-IS_DIR_=$(ssh $SSH_CMD_ "if [ -d \"$PATH_\" ]; then echo \"true\"; else echo \"false\"; fi" 2>/dev/stdout | tail -n 1)
+IS_DIR_=$(ssh $SSH_CMD_ "if [ -d \"$PATH_\" ]; then echo \"true\"; else echo \"false\"; fi" 2>/dev/null | tail -n 1)
 
 if $IS_DIR_; then
 	readarray -t FILES_ <<<$(ssh $SSH_CMD_ "ls -1 \"$PATH_\"" 2>/dev/null )
